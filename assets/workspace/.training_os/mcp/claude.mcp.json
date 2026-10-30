@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "garmin": {
+      "command": "garmin-mcp",
+      "args": [],
+      "env": {
+        "GARMIN_IS_CN": "false"
+      }
+    }
+  }
+}
