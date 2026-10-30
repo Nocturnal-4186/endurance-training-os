@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 训练数据（绝不入库）
+data/
+*.db
+*.sqlite
+*.sqlite3
+archive/
+
+# 个人档案（示例模板保留，实际填过的不要提交）
+coach/ATHLETE_PROFILE.local.md
+coach/*.local.md
+
+# 凭据
+.env
+*.token
+*_token.txt
+.github_token*
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
