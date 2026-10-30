@@ -1,0 +1,4 @@
+interface:
+  display_name: "Endurance Training OS"
+  short_description: "Deploy a local-first coaching workspace with memory, hooks, and Garmin rules"
+  default_prompt: "Start the interactive Endurance Training OS setup: ask me one installation question at a time, then install, verify, and show the configuration guide."
