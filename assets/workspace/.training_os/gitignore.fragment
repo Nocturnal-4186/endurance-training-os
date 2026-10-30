@@ -1,0 +1,9 @@
+# Training OS local data (keep coach/*.md if the user wants to version notes)
+.training_os/data/
+.training_os/archive/
+.training_os/backups/
+.training_os/logs/
+.training_os/.write-probe
+data/garmin/raw/
+*.sqlite3-wal
+*.sqlite3-shm
