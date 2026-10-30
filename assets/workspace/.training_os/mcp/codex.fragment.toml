@@ -1,0 +1,9 @@
+# Add this fragment to the user's Codex configuration only after confirming
+# the Garmin MCP executable exists. Do not put credentials in this file.
+[mcp_servers.garmin]
+command = "garmin-mcp"
+args = []
+startup_timeout_sec = 120
+
+[mcp_servers.garmin.env]
+GARMIN_IS_CN = "false"
