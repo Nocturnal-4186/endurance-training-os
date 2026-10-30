@@ -1,0 +1,10 @@
+{
+  "name": "garmin",
+  "transport": "stdio",
+  "command": "garmin-mcp",
+  "args": [],
+  "env": {
+    "GARMIN_IS_CN": "false"
+  },
+  "notes": "Configure once with the vendor auth command; keep tokens outside the project."
+}
